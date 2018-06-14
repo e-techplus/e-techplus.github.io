@@ -5,20 +5,50 @@
 	<title>Working with Apache Cordova</title>
 	<link rel="stylesheet" type="text/css" href="css/estiloso.css">
 	<link href='https://fonts.googleapis.com/css?family=Raleway:700,400,300,700italic,400italic,300italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
 </head>
 <body>
-	
-	<center>
-		<div class="faixaTopo sombra-bottom"></div>
-		<div class="topo largura">
-			<a href="/"><div class="logo"></div></a>
-			<div class="menu">
-				<a href="/"><li>Home</li></a>
-				<a href="whatscordova.html"><li>What's Cordova?</li></a>
-				<a href="getstarted.html"><li>Get Started</li></a>
-				<a href="documentation.html"><li>Documentation</li></a>
-			</div>
+	<div class="porta-menu">
+	  <div class="container">
+		<nav class="navbar navbar-dark bg-primary menu navbar-expand-lg">
+			  <a class="navbar-brand" href="#">
+			   <div class="logo"><img src="img/logo-p-90.png"></div>
+			  </a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav mr-auto">
+			      <li class="nav-item active">
+			        <a class="nav-link" href="#">Home</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Entradas</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Pratos</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Sobremesas</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="#">Bebidas</a>
+			      </li>		      
+			      <li class="nav-item">
+			        <a class="nav-link disabled" href="#">CardAPPio v 0.0.1</a>
+			      </li>
+			    </ul>
+			    <form class="form-inline my-2 my-lg-0">
+			      <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+			      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+			    </form>
+			  </div>
+			</nav>
+		  </div>	
 		</div>
+	<center>
+		
 		<div class="largura corpo">
 			<h1>Bem-vindo à Tech Plus</h1>
 			<p>Apache Cordova is an open-source mobile development framework. It allows you to use standard web technologies - HTML5, CSS3, and JavaScript for cross-platform development. Applications execute within wrappers targeted to each platform, and rely on standards-compliant API bindings to access each device's capabilities such as sensors, data, network status, etc.</p>
@@ -59,5 +89,8 @@
 			</div>
 		</div>
 	</center>
+	
+	<script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
 </body>
 </html>
